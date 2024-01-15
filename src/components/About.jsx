@@ -53,6 +53,7 @@ const About = () => {
          I'm a fast learner and quickly grasp information, I want to create effective,
           scalable and user-friendly projects for people to simplify their lives and to solve real problems. 
       </motion.p>
+      
       <button class="border-#915EFF mt-10 bg-white hover:bg-gray-100 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
       <svg class="fill-current w-4 h-4 mr-2 text-[#915EFF]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
 
