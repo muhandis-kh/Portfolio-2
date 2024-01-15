@@ -17,12 +17,12 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.5)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 700,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
@@ -88,13 +88,13 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-35 flex flex-wrap gap-7 cursor-pointer'>
+      <div className='mt-20 flex flex-wrap gap-7 cursor-pointer'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
       <div>
-        <p class="green-text-gradient text-[32px] pt-7">To review all the projects: <a href="https://github.com/muhandis-kh" class="pink-text-gradient" >click</a></p>
+        <p class="green-text-gradient text-[32px] lg: pt-[110px]">To review all the projects: <a href="https://github.com/muhandis-kh" class="pink-text-gradient" >click</a></p>
         
       </div>
     </>
