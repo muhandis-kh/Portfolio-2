@@ -259,7 +259,7 @@ import {
 
       ],
       image: arzonro_bot,
-      source_code_link: "https://t.me/arzonro_bot",
+      source_code_link: "https://t.me/arzoni_qayerda_bot",
     },
     {
       name: "Telegram bot for BOOK API",
